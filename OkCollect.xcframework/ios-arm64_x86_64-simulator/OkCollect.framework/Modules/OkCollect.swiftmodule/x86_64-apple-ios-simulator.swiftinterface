@@ -1,0 +1,284 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)
+// swift-module-flags: -target x86_64-apple-ios14.3-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name OkCollect
+import CoreLocation
+import Foundation
+@_exported import OkCollect
+import Swift
+import UIKit
+import WebKit
+public class OkHiTheme {
+  public var logoUrl: Swift.String?
+  public var appBarColor: Swift.String?
+  public var appName: Swift.String?
+  public init()
+  public func with(logoUrl: Swift.String) -> OkCollect.OkHiTheme
+  public func with(appBarColor: Swift.String) -> OkCollect.OkHiTheme
+  public func with(appName: Swift.String) -> OkCollect.OkHiTheme
+  @objc deinit
+}
+extension UIDevice {
+  public static let modelName: Swift.String
+  public static var osType: Swift.String {
+    get
+  }
+}
+public class OkHiCollect {
+  public init()
+  public func viewController(okHiAuth: OkCollect.OkHiAuth, okHiTheme: OkCollect.OkHiTheme, okHiUser: OkCollect.OkHiUser, okHiConfig: OkCollect.OkHiConfig, completion: ((OkCollect.OkHiLocation?, OkCollect.OkHiError?) -> Swift.Void)?) -> UIKit.UIViewController?
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class JSONHelper {
+  public static func encode<T>(object: T) throws -> Swift.String where T : Swift.Encodable
+  public static func decode<T>(json: Foundation.Data?, model: T.Type) throws -> T? where T : Swift.Decodable, T : Swift.Encodable
+  public static func decode<T>(json: Swift.String?, model: T.Type) throws -> T? where T : Swift.Decodable, T : Swift.Encodable
+  public static func jsonData(from json: Any?) -> Foundation.Data?
+  @objc deinit
+}
+public struct OkVerifyGeofence : Swift.Codable {
+  public var radius: Swift.Int
+  public var expiration: Swift.Int
+  public var notificationResponsiveness: Swift.Int
+  public var setInitialTriggers: Swift.Bool
+  public var registerOnDeviceRestart: Swift.Bool
+  public var setDwellTransitionType: Swift.Bool
+  public var loiteringDelay: Swift.Int
+  public init()
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct OkHiErrorResponse : Swift.Decodable {
+  public var error: Swift.String
+  public var statusCode: Swift.Int
+  public var message: Swift.String
+  public init(from decoder: Swift.Decoder) throws
+}
+public struct OkHiTransitResponse : Swift.Decodable {
+  public var status: Swift.String
+  public init(from decoder: Swift.Decoder) throws
+}
+public class OkHiAuth {
+  public var accessToken: Swift.String? {
+    get
+  }
+  public var environment: OkCollect.Environment
+  public init(branchId: Swift.String, clientId: Swift.String, environment: OkCollect.Environment)
+  @objc deinit
+}
+public class OkHiConfig {
+  public init()
+  public func enableStreetView() -> OkCollect.OkHiConfig
+  public func enableAppBar() -> OkCollect.OkHiConfig
+  @objc deinit
+}
+public struct OkHiUser : Swift.Codable {
+  public var phone: Swift.String
+  public var firstName: Swift.String
+  public var lastName: Swift.String
+  public var id: Swift.String
+  public init(phoneNumber: Swift.String, name: Swift.String, lastName: Swift.String, id: Swift.String)
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+extension Date {
+  public func toMillis() -> Swift.Int64
+}
+public struct Constants {
+}
+public enum Environment : Swift.String {
+  case prod
+  case sandbox
+  case dev
+  public typealias RawValue = Swift.String
+  public init?(rawValue: Swift.String)
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum Params : Swift.String {
+  case scopes
+  case userId
+  case phone
+  public typealias RawValue = Swift.String
+  public init?(rawValue: Swift.String)
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum Headers : Swift.String {
+  case authorization
+  public typealias RawValue = Swift.String
+  public init?(rawValue: Swift.String)
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum Endpoints : Swift.String {
+  case congig
+  case authToken
+  case transit
+  case addressByPhone
+  public typealias RawValue = Swift.String
+  public init?(rawValue: Swift.String)
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum Method : Swift.String {
+  case post
+  case get
+  public typealias RawValue = Swift.String
+  public init?(rawValue: Swift.String)
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum OkHiAccessScope : Swift.String {
+  case verify
+  case address
+  case checkout
+  case profile
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+  public init?(rawValue: Swift.String)
+}
+public class OkHiCore {
+  public init(okAuth: OkCollect.OkHiAuth)
+  public func anonymousSignWith(phoneNumber: Swift.String, in scopes: [Swift.String], completion: @escaping (Swift.Result<Swift.String, OkCollect.OkHiError>) -> Swift.Void)
+  public func anonymousSignWith(userId: Swift.String, in scopes: [Swift.String], completion: @escaping (Swift.Result<Swift.String, OkCollect.OkHiError>) -> Swift.Void)
+  public func getConfiguration(authToken: Swift.String, completion: @escaping (Swift.Result<OkCollect.OkVerifyGeofence, OkCollect.OkHiError>) -> Swift.Void)
+  public func executeRequest(to endpoint: Swift.String, method: Swift.String, body: Foundation.Data? = nil, headers: [Swift.String : Swift.String]? = nil, queryParams: [Swift.String : Swift.String]? = nil, completion: @escaping (Swift.Result<Any, OkCollect.OkHiError>) -> Swift.Void)
+  @objc deinit
+}
+public enum OkHiErr : Swift.Error {
+  case General
+  public static func == (a: OkCollect.OkHiErr, b: OkCollect.OkHiErr) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+}
+public class OkHiError : Swift.Error {
+  public enum ErrorCodes : Swift.String {
+    case unknown
+    case network
+    case invalidPhone
+    case unauthorized
+    case permisionDenied
+    case serviceUnavailable
+    case unableToParse
+    case unablePrepareUrl
+    case unableToInstantiateController
+    case webViewInternalHttp
+    case missingLocationId
+    public typealias RawValue = Swift.String
+    public init?(rawValue: Swift.String)
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  public enum ErrorMessages : Swift.String {
+    case unknown
+    case network
+    case invalidPhone
+    case unauthorized
+    case unableToParse
+    case unablePrepareUrl
+    case unableToInstantiateController
+    case webViewInternalHttp
+    case missingLocationId
+    public typealias RawValue = Swift.String
+    public init?(rawValue: Swift.String)
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  public var code: Swift.String
+  public var message: Swift.String
+  public init(code: Swift.String?, message: Swift.String?)
+  public init(code: OkCollect.OkHiError.ErrorCodes?, message: OkCollect.OkHiError.ErrorMessages?)
+  public init(code: OkCollect.OkHiError.ErrorCodes?, message: Swift.String?)
+  @objc deinit
+}
+public class OkHiLocation : Swift.Codable {
+  public init()
+  public init(id: Swift.String?, title: Swift.String?, createdAt: Swift.String?)
+  public func with(createdAt: Swift.String) -> OkCollect.OkHiLocation
+  public func with(id: Swift.String) -> OkCollect.OkHiLocation
+  public func with(lat: Swift.Double) -> OkCollect.OkHiLocation
+  public func with(lon: Swift.Double) -> OkCollect.OkHiLocation
+  public var streetName: Swift.String {
+    get
+  }
+  public var createdAt: Swift.String {
+    get
+  }
+  public var title: Swift.String {
+    get
+  }
+  public var id: Swift.String? {
+    get
+  }
+  public var lat: Swift.Double {
+    get
+  }
+  public var lon: Swift.Double {
+    get
+  }
+  public var url: Swift.String {
+    get
+  }
+  public var photo: Swift.String {
+    get
+  }
+  public var subtitle: Swift.String {
+    get
+  }
+  public var directions: Swift.String {
+    get
+  }
+  public var otherInformation: Swift.String {
+    get
+  }
+  @objc deinit
+  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+@objc public class GeoPoint : ObjectiveC.NSObject, Foundation.NSSecureCoding, Swift.Codable {
+  @objc public static var supportsSecureCoding: Swift.Bool
+  public init(lat: Swift.Double, lon: Swift.Double)
+  @objc public func encode(with aCoder: Foundation.NSCoder)
+  @objc required public init?(coder: Foundation.NSCoder)
+  @objc override dynamic public init()
+  required public init(from decoder: Swift.Decoder) throws
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+}
+extension OkCollect.Environment : Swift.Equatable {}
+extension OkCollect.Environment : Swift.Hashable {}
+extension OkCollect.Environment : Swift.RawRepresentable {}
+extension OkCollect.Params : Swift.Equatable {}
+extension OkCollect.Params : Swift.Hashable {}
+extension OkCollect.Params : Swift.RawRepresentable {}
+extension OkCollect.Headers : Swift.Equatable {}
+extension OkCollect.Headers : Swift.Hashable {}
+extension OkCollect.Headers : Swift.RawRepresentable {}
+extension OkCollect.Endpoints : Swift.Equatable {}
+extension OkCollect.Endpoints : Swift.Hashable {}
+extension OkCollect.Endpoints : Swift.RawRepresentable {}
+extension OkCollect.Method : Swift.Equatable {}
+extension OkCollect.Method : Swift.Hashable {}
+extension OkCollect.Method : Swift.RawRepresentable {}
+extension OkCollect.OkHiAccessScope : Swift.Equatable {}
+extension OkCollect.OkHiAccessScope : Swift.Hashable {}
+extension OkCollect.OkHiAccessScope : Swift.RawRepresentable {}
+extension OkCollect.OkHiErr : Swift.Equatable {}
+extension OkCollect.OkHiErr : Swift.Hashable {}
+extension OkCollect.OkHiError.ErrorCodes : Swift.Equatable {}
+extension OkCollect.OkHiError.ErrorCodes : Swift.Hashable {}
+extension OkCollect.OkHiError.ErrorCodes : Swift.RawRepresentable {}
+extension OkCollect.OkHiError.ErrorMessages : Swift.Equatable {}
+extension OkCollect.OkHiError.ErrorMessages : Swift.Hashable {}
+extension OkCollect.OkHiError.ErrorMessages : Swift.RawRepresentable {}
