@@ -25,7 +25,7 @@ extension UIDevice {
 }
 public class OkHiCollect {
   public init()
-  public func viewController(okHiAuth: OkCollect.OkHiAuth, okHiTheme: OkCollect.OkHiTheme, okHiUser: OkCollect.OkHiUser, okHiConfig: OkCollect.OkHiConfig, completion: ((OkCollect.OkHiLocation?, OkCollect.OkHiError?) -> Swift.Void)?) -> UIKit.UIViewController?
+  public func viewController(with okHiAuth: OkCollect.OkHiAuth, okHiTheme: OkCollect.OkHiTheme, okHiUser: OkCollect.OkHiUser, okHiConfig: OkCollect.OkHiConfig, completion: ((OkCollect.OkHiLocation?, OkCollect.OkHiError?) -> Swift.Void)?) -> UIKit.UIViewController
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class JSONHelper {
