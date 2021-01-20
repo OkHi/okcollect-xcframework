@@ -1,7 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)
 // swift-module-flags: -target x86_64-apple-ios14.3-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name OkCollect
-import CoreLocation
 import Foundation
 @_exported import OkCollect
 import Swift
@@ -25,7 +24,7 @@ extension UIDevice {
 }
 public class OkHiCollect {
   public init()
-  public func viewController(with okHiAuth: OkCollect.OkHiAuth, okHiTheme: OkCollect.OkHiTheme, okHiUser: OkCollect.OkHiUser, okHiConfig: OkCollect.OkHiConfig, completion: ((OkCollect.OkHiLocation?, OkCollect.OkHiError?) -> Swift.Void)?) -> UIKit.UIViewController
+  public func viewController(with okHiAuth: OkCollect.OkHiAuth, okHiTheme: OkCollect.OkHiTheme, okHiUser: OkCollect.OkHiUser, okHiConfig: OkCollect.OkHiConfig, completion: ((OkCollect.OkHiUser?, OkCollect.OkHiLocation?, OkCollect.OkHiError?) -> Swift.Void)?) -> UIKit.UIViewController
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class JSONHelper {
@@ -35,7 +34,7 @@ public class OkHiCollect {
   public static func jsonData(from json: Any?) -> Foundation.Data?
   @objc deinit
 }
-public struct OkVerifyGeofence : Swift.Codable {
+public struct OkHiGeofenceConfig : Swift.Codable {
   public var radius: Swift.Int
   public var expiration: Swift.Int
   public var notificationResponsiveness: Swift.Int
@@ -47,10 +46,22 @@ public struct OkVerifyGeofence : Swift.Codable {
   public init(from decoder: Swift.Decoder) throws
   public func encode(to encoder: Swift.Encoder) throws
 }
+@objc public class GeoPoint : ObjectiveC.NSObject, Foundation.NSSecureCoding, Swift.Codable {
+  @objc public static var supportsSecureCoding: Swift.Bool
+  public var lat: Swift.Double
+  public var lon: Swift.Double
+  public init(lat: Swift.Double, lon: Swift.Double)
+  @objc public func encode(with aCoder: Foundation.NSCoder)
+  @objc required public init?(coder: Foundation.NSCoder)
+  @objc deinit
+  @objc override dynamic public init()
+  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
 public struct OkHiErrorResponse : Swift.Decodable {
-  public var error: Swift.String
+  public var error: Swift.String?
   public var statusCode: Swift.Int
-  public var message: Swift.String
+  public var message: Swift.String?
   public init(from decoder: Swift.Decoder) throws
 }
 public struct OkHiTransitResponse : Swift.Decodable {
@@ -61,9 +72,18 @@ public class OkHiAuth {
   public var accessToken: Swift.String? {
     get
   }
-  public var environment: OkCollect.Environment
+  public var environment: Swift.String
   public init(branchId: Swift.String, clientId: Swift.String, environment: OkCollect.Environment)
+  public init(branchId: Swift.String, clientId: Swift.String, environment: Swift.String)
   @objc deinit
+}
+@_hasMissingDesignatedInitializers public class StreetView : Swift.Codable {
+  public var url: Swift.String?
+  public var panoId: Swift.String?
+  public var geoPoint: OkCollect.GeoPoint?
+  @objc deinit
+  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
 }
 public class OkHiConfig {
   public init()
@@ -71,13 +91,18 @@ public class OkHiConfig {
   public func enableAppBar() -> OkCollect.OkHiConfig
   @objc deinit
 }
-public struct OkHiUser : Swift.Codable {
+public class OkHiUser : Swift.Codable {
   public var phone: Swift.String
-  public var firstName: Swift.String
-  public var lastName: Swift.String
-  public var id: Swift.String
-  public init(phoneNumber: Swift.String, name: Swift.String, lastName: Swift.String, id: Swift.String)
-  public init(from decoder: Swift.Decoder) throws
+  public var firstName: Swift.String?
+  public var lastName: Swift.String?
+  public var id: Swift.String?
+  public init()
+  public init(phoneNumber: Swift.String)
+  public func with(firstName: Swift.String) -> OkCollect.OkHiUser
+  public func with(lastName: Swift.String) -> OkCollect.OkHiUser
+  public func with(okHiId: Swift.String) -> OkCollect.OkHiUser
+  required public init(from decoder: Swift.Decoder) throws
+  @objc deinit
   public func encode(to encoder: Swift.Encoder) throws
 }
 extension Date {
@@ -88,12 +113,11 @@ public struct Constants {
 public enum Environment : Swift.String {
   case prod
   case sandbox
-  case dev
   public typealias RawValue = Swift.String
-  public init?(rawValue: Swift.String)
   public var rawValue: Swift.String {
     get
   }
+  public init?(rawValue: Swift.String)
 }
 public enum Params : Swift.String {
   case scopes
@@ -148,7 +172,7 @@ public class OkHiCore {
   public init(okAuth: OkCollect.OkHiAuth)
   public func anonymousSignWith(phoneNumber: Swift.String, in scopes: [Swift.String], completion: @escaping (Swift.Result<Swift.String, OkCollect.OkHiError>) -> Swift.Void)
   public func anonymousSignWith(userId: Swift.String, in scopes: [Swift.String], completion: @escaping (Swift.Result<Swift.String, OkCollect.OkHiError>) -> Swift.Void)
-  public func getConfiguration(authToken: Swift.String, completion: @escaping (Swift.Result<OkCollect.OkVerifyGeofence, OkCollect.OkHiError>) -> Swift.Void)
+  public func getConfiguration(authToken: Swift.String, completion: @escaping (Swift.Result<OkCollect.OkHiGeofenceConfig, OkCollect.OkHiError>) -> Swift.Void)
   public func executeRequest(to endpoint: Swift.String, method: Swift.String, body: Foundation.Data? = nil, headers: [Swift.String : Swift.String]? = nil, queryParams: [Swift.String : Swift.String]? = nil, completion: @escaping (Swift.Result<Any, OkCollect.OkHiError>) -> Swift.Void)
   @objc deinit
 }
@@ -203,55 +227,23 @@ public class OkHiError : Swift.Error {
   @objc deinit
 }
 public class OkHiLocation : Swift.Codable {
+  public var id: Swift.String?
+  public var userId: Swift.String?
+  public var streetName: Swift.String?
+  public var propertyName: Swift.String?
+  public var directions: Swift.String?
+  public var geoPoint: OkCollect.GeoPoint
+  public var streetView: OkCollect.StreetView?
+  public var otherInformation: Swift.String?
+  public var updateAt: Swift.String?
+  public var createdAt: Swift.String?
+  public var url: Swift.String?
+  public var plusCode: Swift.String?
+  public var photo: Swift.String?
+  public var title: Swift.String?
+  public var subtitle: Swift.String?
+  public var displayTitle: Swift.String?
   public init()
-  public init(id: Swift.String?, title: Swift.String?, createdAt: Swift.String?)
-  public func with(createdAt: Swift.String) -> OkCollect.OkHiLocation
-  public func with(id: Swift.String) -> OkCollect.OkHiLocation
-  public func with(lat: Swift.Double) -> OkCollect.OkHiLocation
-  public func with(lon: Swift.Double) -> OkCollect.OkHiLocation
-  public var streetName: Swift.String {
-    get
-  }
-  public var createdAt: Swift.String {
-    get
-  }
-  public var title: Swift.String {
-    get
-  }
-  public var id: Swift.String? {
-    get
-  }
-  public var lat: Swift.Double {
-    get
-  }
-  public var lon: Swift.Double {
-    get
-  }
-  public var url: Swift.String {
-    get
-  }
-  public var photo: Swift.String {
-    get
-  }
-  public var subtitle: Swift.String {
-    get
-  }
-  public var directions: Swift.String {
-    get
-  }
-  public var otherInformation: Swift.String {
-    get
-  }
-  @objc deinit
-  required public init(from decoder: Swift.Decoder) throws
-  public func encode(to encoder: Swift.Encoder) throws
-}
-@objc public class GeoPoint : ObjectiveC.NSObject, Foundation.NSSecureCoding, Swift.Codable {
-  @objc public static var supportsSecureCoding: Swift.Bool
-  public init(lat: Swift.Double, lon: Swift.Double)
-  @objc public func encode(with aCoder: Foundation.NSCoder)
-  @objc required public init?(coder: Foundation.NSCoder)
-  @objc override dynamic public init()
   required public init(from decoder: Swift.Decoder) throws
   @objc deinit
   public func encode(to encoder: Swift.Encoder) throws
