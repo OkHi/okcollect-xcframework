@@ -1,0 +1,41 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)
+// swift-module-flags: -target arm64-apple-ios10.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name OkCollect
+import Foundation
+@_exported import OkCollect
+import OkCore
+import Swift
+import UIKit
+import WebKit
+public class OkHiTheme {
+  public var logoUrl: Swift.String?
+  public var appBarColor: Swift.String?
+  public var appName: Swift.String?
+  public init()
+  public func with(logoUrl: Swift.String) -> OkCollect.OkHiTheme
+  public func with(appBarColor: Swift.String) -> OkCollect.OkHiTheme
+  public func with(appName: Swift.String) -> OkCollect.OkHiTheme
+  @objc deinit
+}
+extension UIDevice {
+  public static let modelName: Swift.String
+  public static var osType: Swift.String {
+    get
+  }
+}
+public class OkHiCollect {
+  public init()
+  public func viewController(with okHiAuth: OkCore.OkHiAuth, okHiTheme: OkCollect.OkHiTheme, okHiUser: OkCore.OkHiUser, okHiConfig: OkCollect.OkHiConfig, completion: ((OkCore.OkHiUser?, OkCore.OkHiLocation?, OkCore.OkHiError?) -> Swift.Void)?) -> UIKit.UIViewController
+  @objc deinit
+}
+public class OkHiConfig {
+  public init()
+  public func enableStreetView() -> OkCollect.OkHiConfig
+  public func enableAppBar() -> OkCollect.OkHiConfig
+  @objc deinit
+}
+extension Date {
+  public func toMillis() -> Swift.Int64
+}
+public struct Constants {
+}
