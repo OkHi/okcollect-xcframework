@@ -10,6 +10,9 @@ let package = Package(
             name: "OkCollect",
             targets: ["OkCollect"])
     ],
+    dependencies: [
+        .package(name: "OkCore", url: "git@github.com:OkHi/core-xcframework.git", from: "1.0.0")
+    ],
     targets: [
         .binaryTarget(
             name: "OkCollect",
