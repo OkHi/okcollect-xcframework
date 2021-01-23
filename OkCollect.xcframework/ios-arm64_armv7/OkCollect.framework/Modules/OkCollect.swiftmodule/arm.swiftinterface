@@ -24,8 +24,12 @@ extension UIDevice {
   }
 }
 public class OkHiCollect {
+  weak public var delegate: OkCollect.OkCollectWebviewDelegate? {
+    get
+    set
+  }
   public init()
-  public func viewController(with okHiAuth: OkCore.OkHiAuth, okHiTheme: OkCollect.OkHiTheme, okHiUser: OkCore.OkHiUser, okHiConfig: OkCollect.OkHiConfig, completion: ((OkCore.OkHiUser?, OkCore.OkHiLocation?, OkCore.OkHiError?) -> Swift.Void)?) -> UIKit.UIViewController
+  public func viewController(with okHiAuth: OkCore.OkHiAuth, okHiTheme: OkCollect.OkHiTheme, okHiUser: OkCore.OkHiUser, okHiConfig: OkCollect.OkHiConfig) -> UIKit.UIViewController
   @objc deinit
 }
 public class OkHiConfig {
@@ -36,6 +40,10 @@ public class OkHiConfig {
 }
 extension Date {
   public func toMillis() -> Swift.Int64
+}
+public protocol OkCollectWebviewDelegate : ObjectiveC.NSObject {
+  func didEncounterError(error: OkCore.OkHiError)
+  func didSelectAddress(user: OkCore.OkHiUser, location: OkCore.OkHiLocation)
 }
 public struct Constants {
 }
