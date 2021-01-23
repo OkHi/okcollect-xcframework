@@ -42,8 +42,8 @@ extension Date {
   public func toMillis() -> Swift.Int64
 }
 public protocol OkCollectWebviewDelegate : ObjectiveC.NSObject {
-  func didEncounterError(error: OkCore.OkHiError)
-  func didSelectAddress(user: OkCore.OkHiUser, location: OkCore.OkHiLocation)
+  func collect(didEncounterError error: OkCore.OkHiError)
+  func collect(didSelectAddress user: OkCore.OkHiUser, location: OkCore.OkHiLocation)
 }
 public struct Constants {
 }
