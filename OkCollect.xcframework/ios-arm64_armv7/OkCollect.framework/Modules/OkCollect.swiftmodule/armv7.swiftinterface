@@ -8,20 +8,11 @@ import Swift
 import UIKit
 import WebKit
 public class OkHiTheme {
-  public var logoUrl: Swift.String?
-  public var appBarColor: Swift.String?
-  public var appName: Swift.String?
   public init()
   public func with(logoUrl: Swift.String) -> OkCollect.OkHiTheme
   public func with(appBarColor: Swift.String) -> OkCollect.OkHiTheme
   public func with(appName: Swift.String) -> OkCollect.OkHiTheme
   @objc deinit
-}
-extension UIDevice {
-  public static let modelName: Swift.String
-  public static var osType: Swift.String {
-    get
-  }
 }
 public class OkHiCollect {
   weak public var delegate: OkCollect.OkCollectWebviewDelegate? {
@@ -38,12 +29,7 @@ public class OkHiConfig {
   public func enableAppBar() -> OkCollect.OkHiConfig
   @objc deinit
 }
-extension Date {
-  public func toMillis() -> Swift.Int64
-}
 public protocol OkCollectWebviewDelegate : ObjectiveC.NSObject {
   func collect(didEncounterError error: OkCore.OkHiError)
   func collect(didSelectAddress user: OkCore.OkHiUser, location: OkCore.OkHiLocation)
-}
-public struct Constants {
 }

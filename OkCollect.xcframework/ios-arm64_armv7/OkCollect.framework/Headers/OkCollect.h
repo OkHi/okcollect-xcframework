@@ -2,7 +2,7 @@
 //  OkCollect.h
 //  OkCollect
 //
-//  Created by Maxim on 23.12.2020.
+//  Created by Maxim Bukshovan on 23.12.2020.
 //
 
 #import <Foundation/Foundation.h>
