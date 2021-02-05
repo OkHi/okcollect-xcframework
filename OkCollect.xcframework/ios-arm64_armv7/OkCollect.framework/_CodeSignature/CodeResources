@@ -4,6 +4,18 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Frameworks/OkCore.framework/Info.plist</key>
+		<data>
+		hrXLTL0VX2szEUJi9DSgpwAlHO0=
+		</data>
+		<key>Frameworks/OkCore.framework/OkCore</key>
+		<data>
+		IL6N6Qq3nQc6OlpMRuw4mXRFzHY=
+		</data>
+		<key>Frameworks/OkCore.framework/_CodeSignature/CodeResources</key>
+		<data>
+		UKuOD9nCYPCsHZPn55xVGaaNGIA=
+		</data>
 		<key>Headers/OkCollect-Swift.h</key>
 		<data>
 		VjMhh/hN7dV8Esi+CznTKNguvRA=
@@ -18,7 +30,7 @@
 		</data>
 		<key>Modules/OkCollect.swiftmodule/arm.swiftdoc</key>
 		<data>
-		WU45vkn+az43muLkHTYSFsfHxW0=
+		As+iV0SOSTpzzuYDkkndtoAOKSk=
 		</data>
 		<key>Modules/OkCollect.swiftmodule/arm.swiftinterface</key>
 		<data>
@@ -26,11 +38,11 @@
 		</data>
 		<key>Modules/OkCollect.swiftmodule/arm.swiftmodule</key>
 		<data>
-		GPKR7QIS7mjKT+NvtTIcWDcEOW8=
+		L84J0s2sQ4ZyzWN4HSQpHGXV4zc=
 		</data>
 		<key>Modules/OkCollect.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		Wo4c3qYPWH7fxMMefJPZQ7Ev6Uk=
+		pWXCgnUuLXcoT2elIuPkKU88WBM=
 		</data>
 		<key>Modules/OkCollect.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
@@ -38,11 +50,11 @@
 		</data>
 		<key>Modules/OkCollect.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		0HWZzsBzvfbcPxNsgBC8JpGHCd0=
+		mQ+/KTrIufiUiqhp/mDsYUsbnkM=
 		</data>
 		<key>Modules/OkCollect.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		Wo4c3qYPWH7fxMMefJPZQ7Ev6Uk=
+		pWXCgnUuLXcoT2elIuPkKU88WBM=
 		</data>
 		<key>Modules/OkCollect.swiftmodule/arm64.swiftinterface</key>
 		<data>
@@ -50,11 +62,11 @@
 		</data>
 		<key>Modules/OkCollect.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		0HWZzsBzvfbcPxNsgBC8JpGHCd0=
+		mQ+/KTrIufiUiqhp/mDsYUsbnkM=
 		</data>
 		<key>Modules/OkCollect.swiftmodule/armv7-apple-ios.swiftdoc</key>
 		<data>
-		WU45vkn+az43muLkHTYSFsfHxW0=
+		As+iV0SOSTpzzuYDkkndtoAOKSk=
 		</data>
 		<key>Modules/OkCollect.swiftmodule/armv7-apple-ios.swiftinterface</key>
 		<data>
@@ -62,11 +74,11 @@
 		</data>
 		<key>Modules/OkCollect.swiftmodule/armv7-apple-ios.swiftmodule</key>
 		<data>
-		GPKR7QIS7mjKT+NvtTIcWDcEOW8=
+		L84J0s2sQ4ZyzWN4HSQpHGXV4zc=
 		</data>
 		<key>Modules/OkCollect.swiftmodule/armv7.swiftdoc</key>
 		<data>
-		WU45vkn+az43muLkHTYSFsfHxW0=
+		As+iV0SOSTpzzuYDkkndtoAOKSk=
 		</data>
 		<key>Modules/OkCollect.swiftmodule/armv7.swiftinterface</key>
 		<data>
@@ -74,7 +86,7 @@
 		</data>
 		<key>Modules/OkCollect.swiftmodule/armv7.swiftmodule</key>
 		<data>
-		GPKR7QIS7mjKT+NvtTIcWDcEOW8=
+		L84J0s2sQ4ZyzWN4HSQpHGXV4zc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -83,6 +95,39 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Frameworks/OkCore.framework/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			hrXLTL0VX2szEUJi9DSgpwAlHO0=
+			</data>
+			<key>hash2</key>
+			<data>
+			db8Gs2nceIdMXcRXz/yJ6rmfwQBP17CUnU8ujPZzsf8=
+			</data>
+		</dict>
+		<key>Frameworks/OkCore.framework/OkCore</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			IL6N6Qq3nQc6OlpMRuw4mXRFzHY=
+			</data>
+			<key>hash2</key>
+			<data>
+			O7rYp/vXEzW/xNBZgJ0il80EKUJpAujwk5gJCMTWjPs=
+			</data>
+		</dict>
+		<key>Frameworks/OkCore.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			UKuOD9nCYPCsHZPn55xVGaaNGIA=
+			</data>
+			<key>hash2</key>
+			<data>
+			ii5fxzu98lWmoZU0Z/fRQ1Qoobnz/cJ8FFhNxJC6acc=
+			</data>
+		</dict>
 		<key>Headers/OkCollect-Swift.h</key>
 		<dict>
 			<key>hash</key>
@@ -109,11 +154,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WU45vkn+az43muLkHTYSFsfHxW0=
+			As+iV0SOSTpzzuYDkkndtoAOKSk=
 			</data>
 			<key>hash2</key>
 			<data>
-			9WzGQ0P2fp7MZT9doQQaHvoWq4G9ACCrxQdzwFB0r7Y=
+			+qHR2R7MwSbHbhvCUqQ15CZAcfeZpmF91Efw1NZhgcM=
 			</data>
 		</dict>
 		<key>Modules/OkCollect.swiftmodule/arm.swiftinterface</key>
@@ -131,22 +176,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			GPKR7QIS7mjKT+NvtTIcWDcEOW8=
+			L84J0s2sQ4ZyzWN4HSQpHGXV4zc=
 			</data>
 			<key>hash2</key>
 			<data>
-			NahhyaD6Pzw/JXMWWalMph+ciavmZztH5xr1AeXSd1I=
+			jfLS3M41KvKv0BkPr5yMaCj7wv4TipPS5iitNEk/nNY=
 			</data>
 		</dict>
 		<key>Modules/OkCollect.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Wo4c3qYPWH7fxMMefJPZQ7Ev6Uk=
+			pWXCgnUuLXcoT2elIuPkKU88WBM=
 			</data>
 			<key>hash2</key>
 			<data>
-			sow273Vy9DTeZKf4h6festxplplKRKOjKhgwXigNTrU=
+			/QIJ7C9slPRvJtUqvXHXUy6/uVhgwr/57aCS7dSn6yU=
 			</data>
 		</dict>
 		<key>Modules/OkCollect.swiftmodule/arm64-apple-ios.swiftinterface</key>
@@ -164,22 +209,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0HWZzsBzvfbcPxNsgBC8JpGHCd0=
+			mQ+/KTrIufiUiqhp/mDsYUsbnkM=
 			</data>
 			<key>hash2</key>
 			<data>
-			p8X+U5pam8UIm9WcDM6Y8O1WbzS76C0cAv+bvpIvxvo=
+			c2VC1vpX5q377VZBxfhGUfOFycnAVr7jJHxUt7Hqfzk=
 			</data>
 		</dict>
 		<key>Modules/OkCollect.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Wo4c3qYPWH7fxMMefJPZQ7Ev6Uk=
+			pWXCgnUuLXcoT2elIuPkKU88WBM=
 			</data>
 			<key>hash2</key>
 			<data>
-			sow273Vy9DTeZKf4h6festxplplKRKOjKhgwXigNTrU=
+			/QIJ7C9slPRvJtUqvXHXUy6/uVhgwr/57aCS7dSn6yU=
 			</data>
 		</dict>
 		<key>Modules/OkCollect.swiftmodule/arm64.swiftinterface</key>
@@ -197,22 +242,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0HWZzsBzvfbcPxNsgBC8JpGHCd0=
+			mQ+/KTrIufiUiqhp/mDsYUsbnkM=
 			</data>
 			<key>hash2</key>
 			<data>
-			p8X+U5pam8UIm9WcDM6Y8O1WbzS76C0cAv+bvpIvxvo=
+			c2VC1vpX5q377VZBxfhGUfOFycnAVr7jJHxUt7Hqfzk=
 			</data>
 		</dict>
 		<key>Modules/OkCollect.swiftmodule/armv7-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			WU45vkn+az43muLkHTYSFsfHxW0=
+			As+iV0SOSTpzzuYDkkndtoAOKSk=
 			</data>
 			<key>hash2</key>
 			<data>
-			9WzGQ0P2fp7MZT9doQQaHvoWq4G9ACCrxQdzwFB0r7Y=
+			+qHR2R7MwSbHbhvCUqQ15CZAcfeZpmF91Efw1NZhgcM=
 			</data>
 		</dict>
 		<key>Modules/OkCollect.swiftmodule/armv7-apple-ios.swiftinterface</key>
@@ -230,22 +275,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			GPKR7QIS7mjKT+NvtTIcWDcEOW8=
+			L84J0s2sQ4ZyzWN4HSQpHGXV4zc=
 			</data>
 			<key>hash2</key>
 			<data>
-			NahhyaD6Pzw/JXMWWalMph+ciavmZztH5xr1AeXSd1I=
+			jfLS3M41KvKv0BkPr5yMaCj7wv4TipPS5iitNEk/nNY=
 			</data>
 		</dict>
 		<key>Modules/OkCollect.swiftmodule/armv7.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			WU45vkn+az43muLkHTYSFsfHxW0=
+			As+iV0SOSTpzzuYDkkndtoAOKSk=
 			</data>
 			<key>hash2</key>
 			<data>
-			9WzGQ0P2fp7MZT9doQQaHvoWq4G9ACCrxQdzwFB0r7Y=
+			+qHR2R7MwSbHbhvCUqQ15CZAcfeZpmF91Efw1NZhgcM=
 			</data>
 		</dict>
 		<key>Modules/OkCollect.swiftmodule/armv7.swiftinterface</key>
@@ -263,11 +308,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			GPKR7QIS7mjKT+NvtTIcWDcEOW8=
+			L84J0s2sQ4ZyzWN4HSQpHGXV4zc=
 			</data>
 			<key>hash2</key>
 			<data>
-			NahhyaD6Pzw/JXMWWalMph+ciavmZztH5xr1AeXSd1I=
+			jfLS3M41KvKv0BkPr5yMaCj7wv4TipPS5iitNEk/nNY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

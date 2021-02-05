@@ -4,6 +4,18 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Frameworks/OkCore.framework/Info.plist</key>
+		<data>
+		KHslZVcVu8PD+//OZjRWwlUqMDo=
+		</data>
+		<key>Frameworks/OkCore.framework/OkCore</key>
+		<data>
+		ov0sTm28x4BLP7n/BeTBOVabVaE=
+		</data>
+		<key>Frameworks/OkCore.framework/_CodeSignature/CodeResources</key>
+		<data>
+		KZViuT6y75pJnW+/Z51fNOkWv3g=
+		</data>
 		<key>Headers/OkCollect-Swift.h</key>
 		<data>
 		iYlXitRrrAVERghSjdyRe+pkBew=
@@ -18,7 +30,7 @@
 		</data>
 		<key>Modules/OkCollect.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		r1BBrgY5XBkG1mGabCaQ8Hof5sI=
+		abi5Nt7QF8eOzbEeoDKi5YdxVmY=
 		</data>
 		<key>Modules/OkCollect.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
@@ -26,11 +38,11 @@
 		</data>
 		<key>Modules/OkCollect.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		HyfCAvYJSwqStPifehaLHYRO34M=
+		fiyC1J45/BkKHPztw7z/vcFc7ms=
 		</data>
 		<key>Modules/OkCollect.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		r1BBrgY5XBkG1mGabCaQ8Hof5sI=
+		abi5Nt7QF8eOzbEeoDKi5YdxVmY=
 		</data>
 		<key>Modules/OkCollect.swiftmodule/arm64.swiftinterface</key>
 		<data>
@@ -38,11 +50,11 @@
 		</data>
 		<key>Modules/OkCollect.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		HyfCAvYJSwqStPifehaLHYRO34M=
+		fiyC1J45/BkKHPztw7z/vcFc7ms=
 		</data>
 		<key>Modules/OkCollect.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<data>
-		npOP0lSvENlA5i3pwbNrPLCw+iY=
+		othH4tOUHHSWPI2vAKC5wgA8KHI=
 		</data>
 		<key>Modules/OkCollect.swiftmodule/i386-apple-ios-simulator.swiftinterface</key>
 		<data>
@@ -50,11 +62,11 @@
 		</data>
 		<key>Modules/OkCollect.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<data>
-		MR7uS+yKpZt2jBFsx+eWKM/Gho4=
+		ud+8nqduZiHPp4MgfDBZsMMHIFo=
 		</data>
 		<key>Modules/OkCollect.swiftmodule/i386.swiftdoc</key>
 		<data>
-		npOP0lSvENlA5i3pwbNrPLCw+iY=
+		othH4tOUHHSWPI2vAKC5wgA8KHI=
 		</data>
 		<key>Modules/OkCollect.swiftmodule/i386.swiftinterface</key>
 		<data>
@@ -62,11 +74,11 @@
 		</data>
 		<key>Modules/OkCollect.swiftmodule/i386.swiftmodule</key>
 		<data>
-		MR7uS+yKpZt2jBFsx+eWKM/Gho4=
+		ud+8nqduZiHPp4MgfDBZsMMHIFo=
 		</data>
 		<key>Modules/OkCollect.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		cAfW0zLTZE07bZ82Lk3371zdv6Q=
+		EeLQpadU+c3kiv5rfpyk+SsIW5M=
 		</data>
 		<key>Modules/OkCollect.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
@@ -74,11 +86,11 @@
 		</data>
 		<key>Modules/OkCollect.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		0CtHvi8LsgFXV1KsxSelHfYezOs=
+		2xFOLXSl7DMNpt5pYopR3gxkh/Y=
 		</data>
 		<key>Modules/OkCollect.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		cAfW0zLTZE07bZ82Lk3371zdv6Q=
+		EeLQpadU+c3kiv5rfpyk+SsIW5M=
 		</data>
 		<key>Modules/OkCollect.swiftmodule/x86_64.swiftinterface</key>
 		<data>
@@ -86,7 +98,7 @@
 		</data>
 		<key>Modules/OkCollect.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		0CtHvi8LsgFXV1KsxSelHfYezOs=
+		2xFOLXSl7DMNpt5pYopR3gxkh/Y=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -95,6 +107,39 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Frameworks/OkCore.framework/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			KHslZVcVu8PD+//OZjRWwlUqMDo=
+			</data>
+			<key>hash2</key>
+			<data>
+			Dx8ETRfPO7KvePFshB76QJ77WSjUqH/9FnLTyt6CeJk=
+			</data>
+		</dict>
+		<key>Frameworks/OkCore.framework/OkCore</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ov0sTm28x4BLP7n/BeTBOVabVaE=
+			</data>
+			<key>hash2</key>
+			<data>
+			uFvMqXkz8CsrNKWxG3+yIUDF2guUeWrdvKbWyQORYSo=
+			</data>
+		</dict>
+		<key>Frameworks/OkCore.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			KZViuT6y75pJnW+/Z51fNOkWv3g=
+			</data>
+			<key>hash2</key>
+			<data>
+			vqwzNJjI+3fILCTWXjIs0soKmSIYpaQospdURbnjSAo=
+			</data>
+		</dict>
 		<key>Headers/OkCollect-Swift.h</key>
 		<dict>
 			<key>hash</key>
@@ -121,11 +166,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			r1BBrgY5XBkG1mGabCaQ8Hof5sI=
+			abi5Nt7QF8eOzbEeoDKi5YdxVmY=
 			</data>
 			<key>hash2</key>
 			<data>
-			3t1hkgJx4gHRJgA7oM55PHxCjkzG3b91cKXPbLej6CY=
+			uga9aHTqCJT/XUQ07pxQaL6ileSZo9zGBpNBMizoPVg=
 			</data>
 		</dict>
 		<key>Modules/OkCollect.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
@@ -143,22 +188,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HyfCAvYJSwqStPifehaLHYRO34M=
+			fiyC1J45/BkKHPztw7z/vcFc7ms=
 			</data>
 			<key>hash2</key>
 			<data>
-			u3Yahx/44IhfNdc7uYjtNVzPD4ne5sw/KMmTxZKE7tA=
+			S8sHxkKKvnon+poEkLTl0ni3b3KWlBasgTJN/rAe4R0=
 			</data>
 		</dict>
 		<key>Modules/OkCollect.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			r1BBrgY5XBkG1mGabCaQ8Hof5sI=
+			abi5Nt7QF8eOzbEeoDKi5YdxVmY=
 			</data>
 			<key>hash2</key>
 			<data>
-			3t1hkgJx4gHRJgA7oM55PHxCjkzG3b91cKXPbLej6CY=
+			uga9aHTqCJT/XUQ07pxQaL6ileSZo9zGBpNBMizoPVg=
 			</data>
 		</dict>
 		<key>Modules/OkCollect.swiftmodule/arm64.swiftinterface</key>
@@ -176,22 +221,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HyfCAvYJSwqStPifehaLHYRO34M=
+			fiyC1J45/BkKHPztw7z/vcFc7ms=
 			</data>
 			<key>hash2</key>
 			<data>
-			u3Yahx/44IhfNdc7uYjtNVzPD4ne5sw/KMmTxZKE7tA=
+			S8sHxkKKvnon+poEkLTl0ni3b3KWlBasgTJN/rAe4R0=
 			</data>
 		</dict>
 		<key>Modules/OkCollect.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			npOP0lSvENlA5i3pwbNrPLCw+iY=
+			othH4tOUHHSWPI2vAKC5wgA8KHI=
 			</data>
 			<key>hash2</key>
 			<data>
-			TJq7DzbeqLs/H+WYIAaCiyXytI7ORJ/Ejm0mwaVrKmQ=
+			xNqz09oppM7xKZKoauzgQ+koGgA+IU2KvUkCglU3Jok=
 			</data>
 		</dict>
 		<key>Modules/OkCollect.swiftmodule/i386-apple-ios-simulator.swiftinterface</key>
@@ -209,22 +254,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MR7uS+yKpZt2jBFsx+eWKM/Gho4=
+			ud+8nqduZiHPp4MgfDBZsMMHIFo=
 			</data>
 			<key>hash2</key>
 			<data>
-			Suqb+dv7m8h1nUi3R4yhd66+IFsNvOXRurfLZMh0l9Q=
+			JNhMB3WUcixSkpdVBjtO1RD02Umexit/Up78IJPALOA=
 			</data>
 		</dict>
 		<key>Modules/OkCollect.swiftmodule/i386.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			npOP0lSvENlA5i3pwbNrPLCw+iY=
+			othH4tOUHHSWPI2vAKC5wgA8KHI=
 			</data>
 			<key>hash2</key>
 			<data>
-			TJq7DzbeqLs/H+WYIAaCiyXytI7ORJ/Ejm0mwaVrKmQ=
+			xNqz09oppM7xKZKoauzgQ+koGgA+IU2KvUkCglU3Jok=
 			</data>
 		</dict>
 		<key>Modules/OkCollect.swiftmodule/i386.swiftinterface</key>
@@ -242,22 +287,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MR7uS+yKpZt2jBFsx+eWKM/Gho4=
+			ud+8nqduZiHPp4MgfDBZsMMHIFo=
 			</data>
 			<key>hash2</key>
 			<data>
-			Suqb+dv7m8h1nUi3R4yhd66+IFsNvOXRurfLZMh0l9Q=
+			JNhMB3WUcixSkpdVBjtO1RD02Umexit/Up78IJPALOA=
 			</data>
 		</dict>
 		<key>Modules/OkCollect.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			cAfW0zLTZE07bZ82Lk3371zdv6Q=
+			EeLQpadU+c3kiv5rfpyk+SsIW5M=
 			</data>
 			<key>hash2</key>
 			<data>
-			njAr09fzW88/+my2gkwmvKZ4qjUoAOfysRuZnx3rzE8=
+			IoBoFSANcsDBydlefH6u6urMxsNP5uIvEBhHz4NcLno=
 			</data>
 		</dict>
 		<key>Modules/OkCollect.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
@@ -275,22 +320,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0CtHvi8LsgFXV1KsxSelHfYezOs=
+			2xFOLXSl7DMNpt5pYopR3gxkh/Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			aCXAQH1WqTYrrAqdmgX8KTgRTNXPvDZi6ZRuunFe14w=
+			YzLqtBajy7dUzF8f2PZm/Lt2O0RuDazxJsFyq6hshC0=
 			</data>
 		</dict>
 		<key>Modules/OkCollect.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			cAfW0zLTZE07bZ82Lk3371zdv6Q=
+			EeLQpadU+c3kiv5rfpyk+SsIW5M=
 			</data>
 			<key>hash2</key>
 			<data>
-			njAr09fzW88/+my2gkwmvKZ4qjUoAOfysRuZnx3rzE8=
+			IoBoFSANcsDBydlefH6u6urMxsNP5uIvEBhHz4NcLno=
 			</data>
 		</dict>
 		<key>Modules/OkCollect.swiftmodule/x86_64.swiftinterface</key>
@@ -308,11 +353,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0CtHvi8LsgFXV1KsxSelHfYezOs=
+			2xFOLXSl7DMNpt5pYopR3gxkh/Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			aCXAQH1WqTYrrAqdmgX8KTgRTNXPvDZi6ZRuunFe14w=
+			YzLqtBajy7dUzF8f2PZm/Lt2O0RuDazxJsFyq6hshC0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
