@@ -18,79 +18,83 @@
 		</data>
 		<key>Modules/OkCollect.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		f39NwRqFC5egD+YpZjlW+2Wyiac=
+		Kzc/mT66qQ0DO1lMKSRvQqCnpPs=
 		</data>
 		<key>Modules/OkCollect.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		y5hMoZjM7wde7MFnsV79TjbspSw=
+		fCarjzm9/12/8BDTVp4hCwPqNrg=
 		</data>
 		<key>Modules/OkCollect.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		QvYpHOxbMS/OmEzBHMNyNZTQowU=
+		SnjzflGs/LOE0HerwMAG1PsmnRY=
 		</data>
 		<key>Modules/OkCollect.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		f39NwRqFC5egD+YpZjlW+2Wyiac=
+		Kzc/mT66qQ0DO1lMKSRvQqCnpPs=
 		</data>
 		<key>Modules/OkCollect.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		y5hMoZjM7wde7MFnsV79TjbspSw=
+		fCarjzm9/12/8BDTVp4hCwPqNrg=
 		</data>
 		<key>Modules/OkCollect.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		QvYpHOxbMS/OmEzBHMNyNZTQowU=
+		SnjzflGs/LOE0HerwMAG1PsmnRY=
 		</data>
 		<key>Modules/OkCollect.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<data>
-		A/zKm1p9nHhZJqQH4li0Oc1MSws=
+		AbiuFz/FYnh806dNQlmn8wzUcVU=
 		</data>
 		<key>Modules/OkCollect.swiftmodule/i386-apple-ios-simulator.swiftinterface</key>
 		<data>
-		+X+f5h2VURxRJ0PFIO0YfHVK8cE=
+		lmvCzMPYSMs1eoxPsxFE1G/I2xE=
 		</data>
 		<key>Modules/OkCollect.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<data>
-		8KUhTQa++rJa/UbM60nJs2DDd4A=
+		YkJVSQAQhkuvwleHwyT/i5/vYHs=
 		</data>
 		<key>Modules/OkCollect.swiftmodule/i386.swiftdoc</key>
 		<data>
-		A/zKm1p9nHhZJqQH4li0Oc1MSws=
+		AbiuFz/FYnh806dNQlmn8wzUcVU=
 		</data>
 		<key>Modules/OkCollect.swiftmodule/i386.swiftinterface</key>
 		<data>
-		+X+f5h2VURxRJ0PFIO0YfHVK8cE=
+		lmvCzMPYSMs1eoxPsxFE1G/I2xE=
 		</data>
 		<key>Modules/OkCollect.swiftmodule/i386.swiftmodule</key>
 		<data>
-		8KUhTQa++rJa/UbM60nJs2DDd4A=
+		YkJVSQAQhkuvwleHwyT/i5/vYHs=
 		</data>
 		<key>Modules/OkCollect.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		4UYWHpgMKzeoVmgxQ69GyM6b+I4=
+		fTCWgOZWz5uP9cEuJeBbAj5wzEY=
 		</data>
 		<key>Modules/OkCollect.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		QJjWiZa+X25KPI90Ed4WEgomcyY=
+		b+hWNJbjmy9ucKs7ywgcmgJQOcA=
 		</data>
 		<key>Modules/OkCollect.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		D9vj83/+/n7jXYlZAul5EBv//w8=
+		/JOXWK0Fwumna+2Pg/TDwVWmtXM=
 		</data>
 		<key>Modules/OkCollect.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		4UYWHpgMKzeoVmgxQ69GyM6b+I4=
+		fTCWgOZWz5uP9cEuJeBbAj5wzEY=
 		</data>
 		<key>Modules/OkCollect.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		QJjWiZa+X25KPI90Ed4WEgomcyY=
+		b+hWNJbjmy9ucKs7ywgcmgJQOcA=
 		</data>
 		<key>Modules/OkCollect.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		D9vj83/+/n7jXYlZAul5EBv//w8=
+		/JOXWK0Fwumna+2Pg/TDwVWmtXM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		Kb7P2DIJVWtb13QPXnW0K+pendA=
+		</data>
+		<key>README.md</key>
+		<data>
+		1MbxEiplW+tnTmwyDIBHeieoB64=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -121,198 +125,198 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			f39NwRqFC5egD+YpZjlW+2Wyiac=
+			Kzc/mT66qQ0DO1lMKSRvQqCnpPs=
 			</data>
 			<key>hash2</key>
 			<data>
-			tKIuSW9SHdttJYBpJG25AeCU6w7Ubxp45xYYtEg1+8U=
+			yQXOYQAE6moKbTapkBVcvJoGy9U3DLFqAZbF94y4umY=
 			</data>
 		</dict>
 		<key>Modules/OkCollect.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			y5hMoZjM7wde7MFnsV79TjbspSw=
+			fCarjzm9/12/8BDTVp4hCwPqNrg=
 			</data>
 			<key>hash2</key>
 			<data>
-			sqfQ8Ww5ti6AyKFo2+M0T1bW6GROPakXB2RyHNH4YQw=
+			uKZCSe/iWE4Sc+96wfGhoObbKRZ2O+z16Dv+Fzvnr4U=
 			</data>
 		</dict>
 		<key>Modules/OkCollect.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QvYpHOxbMS/OmEzBHMNyNZTQowU=
+			SnjzflGs/LOE0HerwMAG1PsmnRY=
 			</data>
 			<key>hash2</key>
 			<data>
-			d1VZeZrzVWxuitB1sOS8Rf9fha/YhF5YjqOjDMy1No0=
+			oX3m48duHAdkOMFkvlCjznim2vqVdoEuuPHm0C/FDzc=
 			</data>
 		</dict>
 		<key>Modules/OkCollect.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			f39NwRqFC5egD+YpZjlW+2Wyiac=
+			Kzc/mT66qQ0DO1lMKSRvQqCnpPs=
 			</data>
 			<key>hash2</key>
 			<data>
-			tKIuSW9SHdttJYBpJG25AeCU6w7Ubxp45xYYtEg1+8U=
+			yQXOYQAE6moKbTapkBVcvJoGy9U3DLFqAZbF94y4umY=
 			</data>
 		</dict>
 		<key>Modules/OkCollect.swiftmodule/arm64.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			y5hMoZjM7wde7MFnsV79TjbspSw=
+			fCarjzm9/12/8BDTVp4hCwPqNrg=
 			</data>
 			<key>hash2</key>
 			<data>
-			sqfQ8Ww5ti6AyKFo2+M0T1bW6GROPakXB2RyHNH4YQw=
+			uKZCSe/iWE4Sc+96wfGhoObbKRZ2O+z16Dv+Fzvnr4U=
 			</data>
 		</dict>
 		<key>Modules/OkCollect.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QvYpHOxbMS/OmEzBHMNyNZTQowU=
+			SnjzflGs/LOE0HerwMAG1PsmnRY=
 			</data>
 			<key>hash2</key>
 			<data>
-			d1VZeZrzVWxuitB1sOS8Rf9fha/YhF5YjqOjDMy1No0=
+			oX3m48duHAdkOMFkvlCjznim2vqVdoEuuPHm0C/FDzc=
 			</data>
 		</dict>
 		<key>Modules/OkCollect.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			A/zKm1p9nHhZJqQH4li0Oc1MSws=
+			AbiuFz/FYnh806dNQlmn8wzUcVU=
 			</data>
 			<key>hash2</key>
 			<data>
-			/nvmKIsUiCV6xMsDBies926++YlVUVBrVhmT9xPsuiM=
+			GqI9NPFmVg6TvwVHqts2KbNSwM76mWXSSdm82QM8Y68=
 			</data>
 		</dict>
 		<key>Modules/OkCollect.swiftmodule/i386-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+X+f5h2VURxRJ0PFIO0YfHVK8cE=
+			lmvCzMPYSMs1eoxPsxFE1G/I2xE=
 			</data>
 			<key>hash2</key>
 			<data>
-			GrtciSEpwgfERqcn38j2ShV0bbCWIkFWcuqKq/09ryQ=
+			K9gXXSDcoU7sxHPLRgwVWJZ9gxE5s6bHSCvbthSyW1M=
 			</data>
 		</dict>
 		<key>Modules/OkCollect.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8KUhTQa++rJa/UbM60nJs2DDd4A=
+			YkJVSQAQhkuvwleHwyT/i5/vYHs=
 			</data>
 			<key>hash2</key>
 			<data>
-			R2PxZYbOeqM1DhvsKzFyFZdw+wBJbc2VtWgNMKIF1+0=
+			DJ6SQuvHoJUVoxuji2BO0dzcf23MBpqMfDoahKEwd8Q=
 			</data>
 		</dict>
 		<key>Modules/OkCollect.swiftmodule/i386.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			A/zKm1p9nHhZJqQH4li0Oc1MSws=
+			AbiuFz/FYnh806dNQlmn8wzUcVU=
 			</data>
 			<key>hash2</key>
 			<data>
-			/nvmKIsUiCV6xMsDBies926++YlVUVBrVhmT9xPsuiM=
+			GqI9NPFmVg6TvwVHqts2KbNSwM76mWXSSdm82QM8Y68=
 			</data>
 		</dict>
 		<key>Modules/OkCollect.swiftmodule/i386.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+X+f5h2VURxRJ0PFIO0YfHVK8cE=
+			lmvCzMPYSMs1eoxPsxFE1G/I2xE=
 			</data>
 			<key>hash2</key>
 			<data>
-			GrtciSEpwgfERqcn38j2ShV0bbCWIkFWcuqKq/09ryQ=
+			K9gXXSDcoU7sxHPLRgwVWJZ9gxE5s6bHSCvbthSyW1M=
 			</data>
 		</dict>
 		<key>Modules/OkCollect.swiftmodule/i386.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8KUhTQa++rJa/UbM60nJs2DDd4A=
+			YkJVSQAQhkuvwleHwyT/i5/vYHs=
 			</data>
 			<key>hash2</key>
 			<data>
-			R2PxZYbOeqM1DhvsKzFyFZdw+wBJbc2VtWgNMKIF1+0=
+			DJ6SQuvHoJUVoxuji2BO0dzcf23MBpqMfDoahKEwd8Q=
 			</data>
 		</dict>
 		<key>Modules/OkCollect.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4UYWHpgMKzeoVmgxQ69GyM6b+I4=
+			fTCWgOZWz5uP9cEuJeBbAj5wzEY=
 			</data>
 			<key>hash2</key>
 			<data>
-			4Nlu2JxJoSgykQ7Di6qy8TTWxwPfWWTL5l5JwzFzrZc=
+			ldDerMoEwflRnewX5c9RPaoclPC1XqJWMeLFbJomL+o=
 			</data>
 		</dict>
 		<key>Modules/OkCollect.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QJjWiZa+X25KPI90Ed4WEgomcyY=
+			b+hWNJbjmy9ucKs7ywgcmgJQOcA=
 			</data>
 			<key>hash2</key>
 			<data>
-			q088aB6Pp2CUhWO3qyj4gmaLSqidljXApFK3l3/rhTg=
+			yV9lVK37mXbeTSwz2vqipZ7OpNnash4/U6z/nqOnTBw=
 			</data>
 		</dict>
 		<key>Modules/OkCollect.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			D9vj83/+/n7jXYlZAul5EBv//w8=
+			/JOXWK0Fwumna+2Pg/TDwVWmtXM=
 			</data>
 			<key>hash2</key>
 			<data>
-			PizpiMRp2vhkMBDG3O2y8IMkoY/7x8Sn8oW5vifMhwg=
+			URfGxvOWXhdlS+SFPP04joipiuQCTzE5cuABfe36e3I=
 			</data>
 		</dict>
 		<key>Modules/OkCollect.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4UYWHpgMKzeoVmgxQ69GyM6b+I4=
+			fTCWgOZWz5uP9cEuJeBbAj5wzEY=
 			</data>
 			<key>hash2</key>
 			<data>
-			4Nlu2JxJoSgykQ7Di6qy8TTWxwPfWWTL5l5JwzFzrZc=
+			ldDerMoEwflRnewX5c9RPaoclPC1XqJWMeLFbJomL+o=
 			</data>
 		</dict>
 		<key>Modules/OkCollect.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QJjWiZa+X25KPI90Ed4WEgomcyY=
+			b+hWNJbjmy9ucKs7ywgcmgJQOcA=
 			</data>
 			<key>hash2</key>
 			<data>
-			q088aB6Pp2CUhWO3qyj4gmaLSqidljXApFK3l3/rhTg=
+			yV9lVK37mXbeTSwz2vqipZ7OpNnash4/U6z/nqOnTBw=
 			</data>
 		</dict>
 		<key>Modules/OkCollect.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			D9vj83/+/n7jXYlZAul5EBv//w8=
+			/JOXWK0Fwumna+2Pg/TDwVWmtXM=
 			</data>
 			<key>hash2</key>
 			<data>
-			PizpiMRp2vhkMBDG3O2y8IMkoY/7x8Sn8oW5vifMhwg=
+			URfGxvOWXhdlS+SFPP04joipiuQCTzE5cuABfe36e3I=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -324,6 +328,17 @@
 			<key>hash2</key>
 			<data>
 			gXc9ofTAyXaJTUpDpozyCBuLqRsa4fn8mV1HPZq/g0c=
+			</data>
+		</dict>
+		<key>README.md</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			1MbxEiplW+tnTmwyDIBHeieoB64=
+			</data>
+			<key>hash2</key>
+			<data>
+			iUc6flwCeforcwRZ42KXxBbpGQAuU01ccpJKmvoqET4=
 			</data>
 		</dict>
 	</dict>

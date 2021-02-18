@@ -20,7 +20,8 @@ public class OkHiCollect {
     set
   }
   public init()
-  public func viewController(with okHiAuth: OkCore.OkHiAuth, okHiTheme: OkCollect.OkHiTheme, okHiUser: OkCore.OkHiUser, okHiConfig: OkCollect.OkHiConfig) -> UIKit.UIViewController
+  public static func initialize(with okHiAuth: OkCore.OkHiAuth)
+  public func viewController(with okHiUser: OkCore.OkHiUser, okHiTheme: OkCollect.OkHiTheme, okHiConfig: OkCollect.OkHiConfig) -> UIKit.UIViewController?
   @objc deinit
 }
 public class OkHiConfig {
