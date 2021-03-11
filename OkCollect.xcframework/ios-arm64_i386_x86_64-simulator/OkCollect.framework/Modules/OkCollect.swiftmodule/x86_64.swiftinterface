@@ -21,6 +21,12 @@ public class OkHiCollect {
   }
   public init()
   public static func initialize(with okHiAuth: OkCore.OkHiAuth)
+  public static var version: Swift.String {
+    get
+  }
+  public static var build: Swift.String {
+    get
+  }
   public func viewController(with okHiUser: OkCore.OkHiUser, okHiTheme: OkCollect.OkHiTheme, okHiConfig: OkCollect.OkHiConfig) -> UIKit.UIViewController?
   @objc deinit
 }
