@@ -1,0 +1,42 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)
+// swift-module-flags: -target x86_64-apple-ios12.1-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name OkCollect
+import Foundation
+@_exported import OkCollect
+import OkCore
+import Swift
+import UIKit
+import WebKit
+public class OkHiTheme {
+  public init()
+  public func with(logoUrl: Swift.String) -> OkCollect.OkHiTheme
+  public func with(appBarColor: Swift.String) -> OkCollect.OkHiTheme
+  public func with(appName: Swift.String) -> OkCollect.OkHiTheme
+  @objc deinit
+}
+public class OkHiCollect {
+  weak public var delegate: OkCollect.OkCollectWebviewDelegate? {
+    get
+    set
+  }
+  public init()
+  public static func initialize(with okHiAuth: OkCore.OkHiAuth)
+  public static var version: Swift.String {
+    get
+  }
+  public static var build: Swift.String {
+    get
+  }
+  public func viewController(with okHiUser: OkCore.OkHiUser, okHiTheme: OkCollect.OkHiTheme, okHiConfig: OkCollect.OkHiConfig) -> UIKit.UIViewController?
+  @objc deinit
+}
+public class OkHiConfig {
+  public init()
+  public func enableStreetView() -> OkCollect.OkHiConfig
+  public func enableAppBar() -> OkCollect.OkHiConfig
+  @objc deinit
+}
+public protocol OkCollectWebviewDelegate : ObjectiveC.NSObject {
+  func collect(didEncounterError error: OkCore.OkHiError)
+  func collect(didSelectAddress user: OkCore.OkHiUser, location: OkCore.OkHiLocation)
+}
