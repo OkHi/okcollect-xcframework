@@ -190,7 +190,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
-@import ObjectiveC;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -208,19 +207,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma pop_macro("any")
 #endif
 
-
-@class OkHiAuth;
-
-/// Defines OkHiCollect class
-SWIFT_CLASS("_TtC9OkCollect11OkHiCollect")
-@interface OkHiCollect : NSObject
-/// Initializes OkCollect class
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-/// Static method to initialize OkHiCollect
-/// \param okHiAuth Authorization info that includes BranchId, ClientKey and Environment
-///
-+ (void)initializeWith:(OkHiAuth * _Nonnull)okHiAuth;
-@end
 
 
 
@@ -421,7 +407,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
-@import ObjectiveC;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -439,19 +424,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma pop_macro("any")
 #endif
 
-
-@class OkHiAuth;
-
-/// Defines OkHiCollect class
-SWIFT_CLASS("_TtC9OkCollect11OkHiCollect")
-@interface OkHiCollect : NSObject
-/// Initializes OkCollect class
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-/// Static method to initialize OkHiCollect
-/// \param okHiAuth Authorization info that includes BranchId, ClientKey and Environment
-///
-+ (void)initializeWith:(OkHiAuth * _Nonnull)okHiAuth;
-@end
 
 
 
