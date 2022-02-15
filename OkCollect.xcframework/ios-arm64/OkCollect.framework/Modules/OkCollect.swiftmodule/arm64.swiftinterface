@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.5.1 (swiftlang-1300.0.31.4 clang-1300.0.29.6)
-// swift-module-flags: -target arm64-apple-ios12.1 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name OkCollect
+// swift-compiler-version: Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)
+// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name OkCollect
 import Foundation
 @_exported import OkCollect
 import OkCore
@@ -8,20 +8,20 @@ import Swift
 import UIKit
 import WebKit
 import _Concurrency
-public class OkHiTheme {
-  public init()
-  public func with(logoUrl: Swift.String) -> OkCollect.OkHiTheme
-  public func with(appBarColor: Swift.String) -> OkCollect.OkHiTheme
-  public func with(appName: Swift.String) -> OkCollect.OkHiTheme
+@_inheritsConvenienceInitializers @objc public class OkHiTheme : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc public func with(logoUrl: Swift.String) -> OkCollect.OkHiTheme
+  @objc public func with(appBarColor: Swift.String) -> OkCollect.OkHiTheme
+  @objc public func with(appName: Swift.String) -> OkCollect.OkHiTheme
   @objc deinit
 }
-public class OkHiCollect {
-  weak public var delegate: OkCollect.OkCollectWebviewDelegate? {
+@_inheritsConvenienceInitializers @objc public class OkHiCollect : ObjectiveC.NSObject {
+  public var delegate: OkCollect.OkCollectWebviewDelegate? {
     get
     set
   }
-  public init()
-  public static func initialize(with okHiAuth: OkCore.OkHiAuth)
+  @objc override dynamic public init()
+  @objc public static func initialize(with okHiAuth: OkCore.OkHiAuth)
   public static var version: Swift.String {
     get
   }
@@ -31,13 +31,13 @@ public class OkHiCollect {
   public func viewController(with okHiUser: OkCore.OkHiUser, okHiTheme: OkCollect.OkHiTheme, okHiConfig: OkCollect.OkHiConfig) -> UIKit.UIViewController?
   @objc deinit
 }
-public class OkHiConfig {
-  public init()
-  public func enableStreetView() -> OkCollect.OkHiConfig
-  public func enableAppBar() -> OkCollect.OkHiConfig
+@_inheritsConvenienceInitializers @objc public class OkHiConfig : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc public func enableStreetView() -> OkCollect.OkHiConfig
+  @objc public func enableAppBar() -> OkCollect.OkHiConfig
   @objc deinit
 }
-public protocol OkCollectWebviewDelegate : ObjectiveC.NSObject {
+public protocol OkCollectWebviewDelegate {
   func collect(didEncounterError error: OkCore.OkHiError)
   func collect(didSelectAddress user: OkCore.OkHiUser, location: OkCore.OkHiLocation)
 }

@@ -3,7 +3,7 @@ import PackageDescription
 let package = Package(
     name: "OkCollect",
     platforms: [
-        .iOS(.v10)
+        .iOS(.v12)
     ],
     products: [
         .library(
